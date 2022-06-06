@@ -1,0 +1,96 @@
+body {
+    font-size: 18px;
+    font-family: 'Oxygen', sans-serif;
+	background: #b1b1b1;
+	background-image: url('../img/fondo.jpg');
+	background-size: cover;
+    text-align: center;
+}
+.nombre {
+    height: 250px;
+	background: linear-gradient(23deg, #27f0f0 0%, #303395 100%);
+	background-image: url('../img/fondoNombre.jpg');
+	background-size: 100% 200%;
+	margin-top: 8%;
+	border-radius: 5px 5px 0 0;
+}
+.nombre .saludo {
+	font-size: 2.5em;
+	font-weight: bold;
+	padding-top: 10%;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+.cuerpo {
+    background: rgba(0, 0, 0, .7);
+    color: #fff;
+	border-radius: 0 0 5px 5px;
+}
+.reclamos{
+	padding-top: 20px;
+	border-right: 3px solid #fff;
+}
+.admin{
+	padding-top: 20px;
+	border-right: 3px solid #fff;
+}
+.info{
+	padding-top: 20px;
+	background: #9dff00;
+	color: #000;
+	border-radius: 0 0 5px 0;
+}
+.info .parrafo{
+	font-size: 0.8em;
+}
+.btn-formulario {
+	margin-bottom: 15px;
+}
+.btn-info {
+    color: #fff;
+    background-color: #03b0db;
+    background-image: none;
+    border-color: #03b0db;
+}
+.btn-info:hover{
+	color: #fff;
+	background-color: transparent;
+}
+.btn-inicio {
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+.btn-inicio:hover{
+	background-color: transparent;
+}
+@media screen and (max-device-width: 800px) {
+    body {
+        font-size: 1em;
+        margin: 50% auto;
+        background-repeat: no-repeat;
+        background-position: 50%;
+	}
+	.nombre .saludo{
+		padding-top: 20%;
+	}
+}
+@media screen and (max-device-width: 480px) {
+    body {
+		font-size: 14px;
+		margin: 20px 5%;
+		height: 715px;
+	}
+	.nombre {
+		background-image: url('../img/fondoNombre.jpg');
+		background-size: 100% 200%;
+		height: 150px;
+	}
+	.nombre .saludo{
+		padding-top: 15%;
+	}
+	.reclamos, .admin{
+		border-right: 0px transparent;
+		border-bottom: 3px solid #fff;
+		padding-bottom: 20px;
+	}
+}

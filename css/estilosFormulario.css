@@ -1,0 +1,66 @@
+body {
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+    background: #cacaca;
+    text-align: center;
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+}
+.menu {
+    padding: 15px 0;
+    background: linear-gradient(23deg, #27f0f0 0%, #303395 100%);
+    margin-top: 3%;
+    border-radius: 10px 10px 0 0;
+}
+.menu .saludo {
+    color: #fff;
+    margin: 0;
+}
+.cuerpo {
+    background: rgba(20, 20, 20, 0.7);
+    color: #fff;
+    font-weight: bold;
+    padding: 15px;
+    padding-top: 30px;
+    margin-bottom: 5%;
+    border-radius: 0 0 10px 10px;
+}
+label{
+    font-weight: 400;
+}
+#direccion, #entre, #nombres, #apellidos {
+    text-transform: capitalize;
+}
+.boton {
+    margin: 10px 0;
+}
+p {
+    color: #dcdcdc;
+    margin: 0 10px ;
+}
+.btn-dark:hover{
+	color: #343a40;
+	background-color: #fff;
+}
+@media screen and (max-device-width: 800px) {
+    body {
+        font-size: 1em;
+        margin: 50% auto;
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+}
+@media screen and (max-device-width: 480px) {
+    body {
+        font-size: 14px;
+        margin: 5%;
+        background: #404040;
+    }
+    .cuerpo{
+        background: #dcdcdc;
+        color: #000;
+    }
+    .menu .saludo {
+        font-size: 18px;
+    }
+}
